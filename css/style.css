@@ -41,6 +41,7 @@ p{
     color: white;
     background-color: #3b5998;
     padding: 10px;
+    transition: 0.3s;
 }
 
 .fa-instagram{
@@ -48,6 +49,7 @@ p{
     color: white;
     background-color: #e1306c;
     padding: 10px;
+    transition: 0.3s;
 }
 
 .fa-linkedin-in{
@@ -55,6 +57,7 @@ p{
     color: white;
     background-color: #0e76a8;
     padding: 10px;
+    transition: 0.3s;
 }
 
 .fa-tiktok{
@@ -62,17 +65,29 @@ p{
     color: white;
     background-color: #000;
     padding: 10px;
+    transition: 0.3s;
 }
 
 a{
     text-decoration: none;
     color: #000;
-    transition: 0.3s;
-    font-size: 60px;
+    font-size:  60px;
+    transition: 1s;
 }
 
-a:hover{
-    font-size: 90px;
-    border-radius: 5px;
+.fa-facebook-f:hover{
+    transform: scale(1.1);
+    box-shadow: black 0px 0px 20px;
+}
+.fa-instagram:hover{
+    transform: scale(1.1);
+    box-shadow: black 0px 0px 20px;
+}
+.fa-linkedin-in:hover{
+    transform: scale(1.1);
+    box-shadow: black 0px 0px 20px;
+}
+.fa-tiktok:hover{
+    transform: scale(1.1);
     box-shadow: black 0px 0px 20px;
 }
